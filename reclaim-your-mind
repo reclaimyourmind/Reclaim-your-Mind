@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reclaim Your Mind</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #4b0082, #800080, #daa520);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            background-color: #800080;
+        }
+        .section {
+            padding: 50px;
+            text-align: center;
+        }
+        .btn {
+            background-color: #800080;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #daa520;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Reclaim Your Mind
+        <p style="font-size: 16px; font-style: italic;">Reclaim your mind. Rewrite your past. Live in the Present. Create your future.</p>
+    </header>
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div id="about" class="section">
+        <h2>About Me</h2>
+        <p>Welcome to Reclaim Your Mind. I help individuals heal, transform, and unlock their potential through hypnotherapy.</p>
+    </div>
+    
+    <div id="services" class="section">
+        <h2>Services</h2>
+        <p>One-on-One Hypnotherapy, Group Hypnosis, Online Courses, and more.</p>
+        <a href="#contact" class="btn">Book a Session</a>
+    </div>
+    
+    <div id="pricing" class="section">
+        <h2>Pricing</h2>
+        <p>Affordable sessions and packages tailored to your needs.</p>
+    </div>
+    
+    <div id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Email: [Your Email]</p>
+        <p>Phone: [Your Phone Number]</p>
+    </div>
+    
+    <footer>
+        &copy; 2025 Reclaim Your Mind. All Rights Reserved.
+    </footer>
+</body>
+</html>
